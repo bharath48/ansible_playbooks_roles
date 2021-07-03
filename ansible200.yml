@@ -1,0 +1,8 @@
+---
+- name: configuring tomcat
+  hosts: all
+  tasks:
+   - name: install apache
+     apt:
+      name: apache
+      state: present
